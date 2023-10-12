@@ -1,0 +1,20 @@
+name: flask_env
+
+dependencies: 
+  - python=3.11
+  - numpy
+  - pandas
+  - loguru
+  - tqdm
+  - ipdb
+  - pip
+  - fire
+  - matplotlib
+  - plotly
+  - flask
+  - jupyter
+  - xlrd # for pandas.read_excel
+  - geopy
+
+channels:
+  - conda-forge
